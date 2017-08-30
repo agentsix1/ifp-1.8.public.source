@@ -1,0 +1,31 @@
+name: ItemFilterPickup
+version: 0.0.2
+description: This plugin is used to detect items being picked up and limit what the player wants to pickup
+author: Agentsix1
+main: me.jeremy.ifp.main
+commands:
+  ifp:
+    description: The main command for this loverly plugin!
+  ifpa:
+    description: The main admin command for this loverly plugin!
+  itemfilter:
+    description: A command for general users to use for simplicity.
+  itemfilteradmin:
+    description: A command for admins to use for simplicity.
+permissions:
+  itemfilterpickup.admin:
+    default: op
+  itemfilterpickup.admin.reload:
+    default: op
+  itemfilterpickup.admin.edit:
+    default: op
+  itemfilterpickup.admin.toggle:
+    default: op
+  itemfilterpickup.public.bypass:
+    default: op
+  itemfilterpickup.public.view:
+    default: op
+  itemfilterpickup.user:
+    default: op
+  itemfilterpickup.user.bypass.public:
+    default: op

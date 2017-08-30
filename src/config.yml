@@ -1,0 +1,43 @@
+Messages:
+  toggle-filter: '&7Your filter is currently %STATE%&7. Repeat this command to set
+    it to %STATE_REVERSE%&7.'
+  add-to-filter: '&7You have added &9%ITEM% &7to your filter list.'
+  already-added-filter: '&cIt appears you have already added &9%ITEM% &cto your filter
+    list.'
+  remove-success-filter: '&7You have removed &9%ITEM% &7from your filter list.'
+  remove-fail-filter: '&cIt appears you do not have &9%ITEM% &cin your filter or a
+    error occurred.'
+  failed-command: '&cThis is not the proper use of this command. Please try: %SYNTAX%'
+  filter-layout: '&6--- Filter Item List (&c%ALL_ITEM_COUNT%&6) ---%NL%&aFiltered
+    &7| &cNot Filtered &7(Permission Based)%NL%%ITEMS%%NL%&7Page &9%CUR_PAGE%&7/&9%ALL_PAGE%'
+  filter-item-layout: '&7%#%. %ITEM%'
+  clear-filter: '&7You have removed all items from your filter list.'
+  reload: '&7You have reloaded the &9Players &7and &9Config &7files.'
+  no-permission: '&cYou do not have the permission to use this command.'
+  public-clear-filter: '&7You have removed all items from the public filter list.'
+  public-filter-layout: '&6--- Filter Item List (&c%ALL_ITEM_COUNT%&6) ---%NL%&aFiltered
+    &7| &cNot Filtered &7(Permission Based)%NL%%ITEMS%%NL%&7Page &9%CUR_PAGE%&7/&9%ALL_PAGE%'
+  public-filter-item-layout: '&7%#%. %ITEM%'
+  public-remove-success-filter: '&7You have removed &9%ITEM% &7from the public filter list.'
+  public-remove-fail-filter: '&cIt appears &9%ITEM% &cis not in the public filter or a
+    error occurred.'
+  public-already-added-filter: '&cIt appears the public filter already has &9%ITEM% &cin the list.'
+  public-add-to-filter: '&9%ITEM% &7has been added to the public filter list.'
+  public-toggle-filter: '&7The public filter is currently %STATE%&7. Repeat this command to set
+    it to %STATE_REVERSE%&7.'
+Permission/Filter Amount:
+ - user:2
+ - extrauser:5
+ - vip:10
+ - vip+:20
+ - vipextreme:30
+ - god:50
+ - staff:100
+ - owner:-1
+ - unlimited:-1
+Settings:
+   Page Length: 10
+Public Pickup Filter:
+  Enabled: false
+  Items:
+  - BEDROCK:0
